@@ -1,0 +1,208 @@
+/*
+Author: Javed Ur Rehman
+Website: http://www.allphptricks.com/
+*/
+
+body {font-family:Arial, Sans-Serif; text-align:center;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#c70039; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 85px 8px; color: #fff; background-color: #c70039; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#c70039 0 1px 0 0; border: 1px solid #c70039; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #ec2961 ;}
+input[type='submit']{padding: 10px 85px 8px; color: #fff; background-color: #c70039; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#c70039 0 1px 0 0; border: 1px solid #c70039; border-radius: 20px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {cursor: pointer; background-color: #ec2961 ; color: #;}
+table.custom {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+.custom {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+
+
+
+}
+
+.custom td, #custom th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    opacity: 0.9;
+}
+
+.custom tr:nth-child(even){background-color: #f2f2f2;}
+
+.custom tr:hover {background-color: #ddd;}
+
+.custom th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:  #c70039 ;
+    color: white;
+    margin-left:auto; margin-right:auto;
+}
+.btn-group {
+    margin: 0 auto;
+}
+.custom_buttons button {
+     /*Shift buttons*/
+    padding: 10px 25px 8px; color: #fff; background-color: #c70039; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #c70039; border-radius: 20px; margin-top: 10px; cursor:pointer;
+      /* Float the buttons side by side */
+}
+button:hover {cursor: pointer; background-color: #ec2961 ; color: #;}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+
+.outer{
+    width: 960px;
+    margin:0 auto;
+}
+.custom_buttons{
+    text-align: center;
+}
+.header_title{
+    font-size: 20px;
+    text-align: center;
+}
+.custom_edit button {
+    background-color:  #c70039 ; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */   
+    text-align: center; 
+    margin: 10px 8px;
+    border-radius: 8px; /*Shift buttons*/
+    /*opacity: 1.0;*/   
+      /* Float the buttons side by side */
+}
+.btn { /* Edit Button*/
+    display: inline-block;
+    background-color:#c70039 ;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 2px;
+    opacity: 0.9;
+}
+.btn:hover {cursor: pointer; background-color: #ec2961 ; color: #;}
+.btn1 { /* Delete Button*/
+    display: inline-block;
+    background-color: #c70039 ;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 2px;
+    opacity: 0.9;
+}
+.login-box{
+    width: 320px;height: 320px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.register-box{
+    width: 400px;height: 550px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:45%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.insert{
+    width: 500px;height: 450px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.edit{
+    width: 320px;height: 470px;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    top:55%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-80px;
+    left:35%;
+    left:calc(50%-50px);
+}
+h1
+{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0 0 0px;
+    text-align: center;
+    
+
+}
+.nav{
+        width:200%;
+        background:#fff;
+        height: 100px
+        margin-top:100px;
+        /*opacity: 0.9;*/
+
+        
+    }
+    ul{
+        list-style: none;
+        padding:9px;
+        margin:4;
+        position:absolute;
+    }
+    li{
+        float: left;
+        margin-top:5px;
+    
+    }
+    .image.resize{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-80px;
+    left:35%;
+    left:calc(50%-50px);
+}
